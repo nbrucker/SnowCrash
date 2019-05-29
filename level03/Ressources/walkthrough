@@ -1,0 +1,3 @@
+go to /var/tmp
+export PATH=.:$PATH
+ln -s /bin/getflag echo

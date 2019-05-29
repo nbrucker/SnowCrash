@@ -1,0 +1,3 @@
+create a file in /opt/openarenaserver
+write this in it 'getflag > /var/tmp/a'
+wait... flag in /var/tmp/a

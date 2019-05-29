@@ -1,0 +1,6 @@
+objdump -d /bin/getflag
+uid of flag14 is 3014, get that with `id flag14`
+check 0x8048bb6 to see that if uid is bc6 so 3014 in hex jump to 0x8048de5
+gdb /bin/getflag
+`catch syscall write` so you dont get ejected by "You should not reverse this"
+run and then `jump *0x8048de5` and continue

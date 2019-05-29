@@ -1,0 +1,2 @@
+ln -s ~/token /tmp/a
+./level08 /tmp/a

